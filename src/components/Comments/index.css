@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 46px;
+}
+.main-heading {
+  font-size: 32px;
+  color: #1e293b;
+}
+.main-para {
+  color: #475569;
+  font-size: 18px;
+}
+.input-userName {
+  width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  padding: 12px;
+  margin-bottom: 24px;
+  border: 1px solid #cbd2d9;
+  color: #475569;
+}
+.textarea-css {
+  width: 400px;
+  height: 150px;
+  padding: 12px;
+  border: 1px solid #cbd2d9;
+  color: #475569;
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.comments-img-css {
+  width: 40%;
+  height: 100%;
+}
+.underline {
+  border: 0.5px solid #cbd2d9;
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+.btn {
+  background-color: #0284c7;
+  background-size: cover;
+  width: 130px;
+  height: 30px;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  margin-top: 14px;
+}
+.comments-count {
+  display: flex;
+  flex-direction: row;
+}
+.count-comment {
+  width: 25px;
+  height: 25px;
+  background-color: #0b69ff;
+  border-radius: 4px;
+  color: #ffffff;
+  text-align: center;
+}
+.comment-css {
+  color: #475569;
+  font-weight: bold;
+  margin-left: 4px;
+}
+.comments-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
